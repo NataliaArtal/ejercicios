@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-color: rgb(173, 164, 164);
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    
+}
+
+.primero {
+    background-color: rgb(134, 30, 30);
+    width: 60%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+}
+
+.input {
+    border: solid gray;
+}
+
+h2 {
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    list-style-type: circle;
+    display: flex;
+    flex-direction: column;
+}
