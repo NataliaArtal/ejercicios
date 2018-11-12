@@ -1,0 +1,22 @@
+.cuerpo {
+  margin-left: 100px;
+  background-color: antiquewhite;
+  font-size: 18px;
+  color: #312c2c;
+}
+
+h2, h3 {
+  font-family: "Lora", serif;
+  color: #333232;
+}
+
+.boton1, .boton2 {
+  background-color: #6e7575;
+  color: #f1f7f1;
+  font-family: "Lora", serif;
+  border: #111313;
+  margin-left: 30px;
+  width: 70px;
+}
+
+/*# sourceMappingURL=style.css.map */

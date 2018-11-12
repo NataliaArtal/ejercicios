@@ -1,0 +1,135 @@
+body {
+  text-align: center;
+  background-color: #d3d3ce;
+}
+
+.container {
+  background: linear-gradient(#9c3a3a, transparent), linear-gradient(to top left, #787a78, transparent), linear-gradient(to top right, #f095a3, transparent);
+  width: 100%;
+  height: 300px;
+  position: relative;
+  border-radius: 4px;
+}
+.container .nombre {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 50px;
+  font-family: "Cabin Sketch", cursive;
+  color: #c0baba;
+}
+
+.infoContenedor {
+  position: absolute;
+  top: 180px;
+  left: 350px;
+  background-image: url("https://image.shutterstock.com/image-vector/gray-halftone-dots-on-white-260nw-1178974597.jpg");
+  width: 40%;
+  height: 210px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  color: #ad1919;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #6d6b6b;
+}
+.infoContenedor .perfil {
+  position: relative;
+  right: 340px;
+}
+.infoContenedor .perfil .imagen {
+  width: 200px;
+  height: 210px;
+  position: absolute;
+  border-radius: 10px;
+  left: 340px;
+}
+
+.items {
+  margin-left: 170px;
+}
+
+.webSite {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  color: #ad1919;
+}
+
+.far.fa-star, .fas.fa-hand-point-right {
+  color: #304730;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+}
+
+.fab.fa-linkedin, .fab.fa-gitlab, .fab.fa-facebook-square, .fab.fa-instagram {
+  color: #240724;
+  font-size: 18px;
+  padding: 5px 5px 5px 5px;
+}
+
+.segundaParte {
+  margin-top: 200px;
+}
+.segundaParte .habilidades {
+  border-style: solid;
+  border-color: #9c3a3a;
+  border-radius: 4px;
+  width: 70%;
+  margin-left: 12%;
+  margin-top: 60px;
+  box-shadow: 10px 10px 10px #727070;
+}
+
+.tituloDos {
+  background-color: #9c3a3a;
+  width: 20%;
+  margin-left: 35%;
+  box-shadow: 10px 10px 5px #727070;
+}
+.tituloDos h3 {
+  font-family: "Cabin Sketch", cursive;
+  color: #b1a8a8;
+  text-shadow: 10px #d3d3ce;
+}
+
+.caja {
+  display: flex;
+  justify-content: space-around;
+  font-style: unset;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+}
+.caja .lorem {
+  line-height: 48px;
+}
+
+.conocimientos {
+  list-style-type: circle;
+  line-height: 40px;
+}
+
+.repositorios {
+  border-style: solid;
+  border-color: #9c3a3a;
+  border-radius: 4px;
+  width: 40%;
+  height: auto;
+  margin-left: 12%;
+  margin-top: 60px;
+  box-shadow: 10px 10px 10px #727070;
+  display: flex;
+  justify-content: center;
+  font-style: unset;
+}
+.repositorios .cajaRepo {
+  width: 40%;
+  height: 300px;
+}
+.repositorios .cajaRepo .repos {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=styles.css.map */

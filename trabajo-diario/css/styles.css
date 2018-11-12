@@ -1,0 +1,70 @@
+.tit {
+    margin-left: 200px;
+}
+
+ul {
+    font-size: 15px;
+}
+
+li{
+    display: inline;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.one {
+    margin-left: 0px;
+}
+
+li a{
+    color: blue
+}
+
+h1{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px; 
+    margin-left: 35px;
+}
+
+.edificio1 {
+    margin-left: 90px;
+}
+
+.edificio1 figcaption {
+    margin-right: 90px;
+}
+
+.date {
+    color: gray;
+}
+
+.second {
+    margin-left: 130px;
+}
+
+.text {
+    font-size: 18 px;
+    line-height: 30px;
+    width: 600px;
+}
+
+.text p a {
+    color: blue;
+}
+
+p.capital::first-letter {
+    font-weight: bold;
+    font: 700 78px Arial;
+    float: left;
+    margin-right: 12px;
+    color: black
+    
+}
+
+.edificio2 {
+    margin-left: 90px;
+}
+
+.edificio2 figcaption {
+    margin-right: 90px;

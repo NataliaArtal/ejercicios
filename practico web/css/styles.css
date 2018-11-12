@@ -1,0 +1,112 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    text-align: center;    
+}
+
+.content {
+    width: 100%;
+    height: px;
+    margin-top: 10px;
+}
+
+.relative {    
+    position: relative;
+    top: 20px;  
+}
+
+.h3 {
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+    color: rgb(241, 148, 241);
+}
+
+.absolute, .img1 {
+    position: absolute;
+    bottom: 13px;
+    top: 1%;
+    left: 5%;
+}
+
+.absolute-uno, .img2 {
+    position: absolute;
+    bottom: 13px;
+    top: 1%;
+    right: 5%;
+}
+
+.contenedor-buttons {
+    width: 80%;
+    height: 1000px;
+    margin-left: 10%;    
+}
+
+.uno {         
+    display: inline-block;
+    padding: initial;   
+    margin: 2%;     
+}
+
+.top-button {
+    background-color: black;
+    color: white;
+    border: black;
+    width: 120px;
+    float: initial;    
+}
+
+.container-fotos {
+    width: 100%;    
+}
+
+
+
+.imagen1, .imagen-2 {
+    display: inline-block;
+    width:300px;
+    height:300px;
+    margin: 5%;   
+}
+
+.pic {
+    width: 45%;
+    height: 70px;
+    margin: 5%;
+}
+
+.fotos {
+    display: inline;
+    margin: 2%;
+}
+
+.uno, .dos, .tres {
+    display: inline;
+    height: 250px;
+    width: 200px;
+    margin: 1%;
+}
+
+.relative-uno {
+    position: relative;
+    background-color: rgb(247, 94, 247);
+    width: 40%;
+    height: 180px;
+    left: 300px;  
+}
+
+.absolute-uno- {
+    position: absolute;
+    top: 10px;
+}
+
+.mapa {
+    width: 120px;
+    height: 120px;
+    margin-right: 350px;
+}
+
+@media (mind-width: 800px) {
+
+}

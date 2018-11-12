@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Netflix</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">    
+</head>
+<body class="cuerpo">
+    <header class="titulo">
+        <h2>Titulo</h2>
+        <input id="titulo" type="text">
+    </header>
+    <section>
+        <form action="">
+            <div class="tipo">
+                <h3>Tipo</h3>                
+                <input id="tipoPeli" type="radio" name="opcion"> <label for="">Pelicula</label>
+                <input id="tipoSerie" type="radio" name="opcion"> <label for="">Serie</label>                
+            </div>        
+            <div class="protagonistas">
+                <h3>Reparto</h3>
+                <input id="reparto" type="text">
+                <button id="boton1">Agregar</button>
+                <ul id="list">
+                </ul>            
+                <button id="boton2">Guardar</button>
+            </div>
+        </form> 
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
